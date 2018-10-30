@@ -12,6 +12,9 @@
 		09536E8C2185BD1A00ED68DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09536E8A2185BD1A00ED68DF /* Main.storyboard */; };
 		09536E8E2185BD1B00ED68DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09536E8D2185BD1B00ED68DF /* Assets.xcassets */; };
 		09536E912185BD1B00ED68DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09536E8F2185BD1B00ED68DF /* LaunchScreen.storyboard */; };
+		09536E992185C76B00ED68DF /* GradientRoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09536E982185C76B00ED68DF /* GradientRoundView.swift */; };
+		09536E9B2185FE7D00ED68DF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09536E9A2185FE7D00ED68DF /* Utils.swift */; };
+		09536E9D218600FD00ED68DF /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09536E9C218600FD00ED68DF /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		09536E8D2185BD1B00ED68DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09536E902185BD1B00ED68DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09536E922185BD1B00ED68DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09536E982185C76B00ED68DF /* GradientRoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRoundView.swift; sourceTree = "<group>"; };
+		09536E9A2185FE7D00ED68DF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		09536E9C218600FD00ED68DF /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				09536E862185BD1A00ED68DF /* AppDelegate.swift */,
 				09536E882185BD1A00ED68DF /* ViewController.swift */,
+				09536E9C218600FD00ED68DF /* CustomCollectionViewCell.swift */,
 				09536E8A2185BD1A00ED68DF /* Main.storyboard */,
 				09536E8D2185BD1B00ED68DF /* Assets.xcassets */,
 				09536E8F2185BD1B00ED68DF /* LaunchScreen.storyboard */,
 				09536E922185BD1B00ED68DF /* Info.plist */,
+				09536E982185C76B00ED68DF /* GradientRoundView.swift */,
+				09536E9A2185FE7D00ED68DF /* Utils.swift */,
 			);
 			path = "whatsapp-bars";
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				09536E892185BD1A00ED68DF /* ViewController.swift in Sources */,
+				09536E9D218600FD00ED68DF /* CustomCollectionViewCell.swift in Sources */,
+				09536E992185C76B00ED68DF /* GradientRoundView.swift in Sources */,
 				09536E872185BD1A00ED68DF /* AppDelegate.swift in Sources */,
+				09536E9B2185FE7D00ED68DF /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +294,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E4Z63835UE;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "whatsapp-bars/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,6 +303,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "albertotaiuti.whatsapp-bars";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,8 +313,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E4Z63835UE;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "whatsapp-bars/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +322,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "albertotaiuti.whatsapp-bars";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
