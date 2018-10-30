@@ -14,4 +14,4 @@ WhatsApp on iOS.
 
 ## License
 
-Please see [LICENSE]*(./LICENSE)
+Please see [LICENSE](./LICENSE)
